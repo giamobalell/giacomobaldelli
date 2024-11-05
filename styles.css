@@ -1,0 +1,495 @@
+/* General styling */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.375rem;
+    background-color: #ffffff;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for centering content */
+.container {
+    text-align: center;
+}
+
+/* Style for Name */
+h1 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+/* Links styling */
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.links a {
+    font-size: 1.5rem;
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: #000000;
+}
+
+/* Fade in and out animation */
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+/* General styling for the container */
+.container {
+    text-align: center;
+}
+
+/* Profile picture styling */
+.profile-picture {
+    display: block;
+    margin: 20px auto; /* Centers image and adds space above/below */
+    width: 70%; /* Increase width for a larger image */
+    max-width: 600px; /* Adjust maximum size as needed */
+    height: auto; /* Keeps aspect ratio */
+    border-radius: 0; /* Removes circular effect */
+}
+
+.thumbnail {
+    width: 250px; /* Set the width you want for the thumbnails */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Space around the thumbnails */
+    cursor: pointer; /* Change cursor to indicate clickable */
+    transition: transform 0.2s; /* Smooth scaling effect */
+}
+
+.thumbnail:hover {
+    transform: scale(0.9); /* Slightly enlarge on hover */
+}
+
+/* General styling for the container */
+.container {
+    text-align: center;
+    padding: 10px; /* Reduced padding */
+}
+
+/* Thumbnail styling */
+.thumbnail {
+    width: 200px; /* Reduced thumbnail size */
+    height: auto; /* Maintain aspect ratio */
+    margin: 5px; /* Reduced margin */
+    cursor: pointer; /* Change cursor to indicate clickable */
+    transition: transform 0.2s; /* Smooth scaling effect */
+}
+
+.thumbnail:hover {
+    transform: scale(0.9); /* Slightly smaller scale on hover */
+}
+
+/* Back button styling */
+.back-button {
+    display: inline-block;
+    margin-top: 10px; /* Reduced margin */
+    padding: 8px 12px; /* Adjusted padding */
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem; /* Smaller font size */
+}
+
+.container {
+    max-width: 800px; /* Limit the width of the container */
+    margin: 20px auto; /* Center the container */
+    padding: 20px; /* Padding inside the container */
+}
+
+p {
+    font-size: 1rem; /* Paragraph text size */
+    margin: 15px 0; /* Space between paragraphs */
+    line-height: 1.5; /* Improved readability */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+    margin-top: 20px; /* Space above the form */
+}
+
+label {
+    margin-bottom: 5px; /* Space below the label */
+    font-weight: bold; /* Bold text for labels */
+}
+
+input, textarea {
+    margin-bottom: 15px; /* Space below each input */
+    padding: 10px; /* Padding inside input fields */
+    border: 1px solid #ccc; /* Border around input fields */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.email {
+    text-align: center; /* Center the text */
+    font-size: 18px; /* Adjust this value for your preferred email size */
+    margin-top: 20px; /* Space above the email */
+}
+
+.links a {
+    display: inline-flex; /* Align items */
+    align-items: center; /* Center items vertically */
+    font-size: 18px; /* Adjust as necessary */
+    margin: 10px; /* Space between links */
+    text-decoration: none; /* Remove underline */
+    color: #ffffff; /* Original link color */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.links a:hover {
+    color: #b0b0b0; /* Change to your desired hover color */
+}
+
+.back-button {
+    color: #ffffff; /* Original link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.back-button:hover {
+    color: #b0b0b0; /* Change to your desired hover color */
+}
+
+/* General body styling for all pages */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.375rem;
+    background-color: #2200ff;
+    color: #ffffff;
+}
+
+/* Dark mode for the main page (Home) */
+body.main-page {
+    background-color: #2200ff; /* Black background */
+    color: #ffffff; /* White text */
+}
+
+/* Dark mode for the films page */
+body.films-page {
+    background-color: #2200ff; /* Black background */
+    color: #ffffff; /* White text */
+}
+
+/* Dark mode for the videoclips page */
+body.videoclips-page {
+    background-color: #2200ff; /* Black background */
+    color: #ffffff; /* White text */
+}
+
+/* Links on black background pages */
+body.main-page a, body.films-page a, body.videoclips-page a {
+    color: #ffffff;
+}
+
+body.main-page a:hover, body.films-page a:hover, body.videoclips-page a:hover {
+    color: #b0b0b0; /* Hover effect on links */
+}
+
+/* Name on main page (white text) */
+h1 {
+    font-size: 18px;
+    color: #ffffff; /* White text for name */
+    margin-bottom: 25px;
+}
+
+/* Thumbnail (Video and Film) styling */
+.thumbnail {
+    width: 300px; /* Adjust thumbnail size */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Space around thumbnails */
+    cursor: pointer; /* Change cursor to indicate clickable */
+    transition: transform 0.2s; /* Smooth scaling effect */
+}
+
+.thumbnail:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Back button styling */
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+/* Back button styling for pages with white background (e.g., Biography, Contact) */
+body.biography-page .back-button,
+body.contact-page .back-button {
+    color: #ffffff; /* Darker text for white background */
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth transition for text color */
+}
+
+body.biography-page .back-button:hover,
+body.contact-page .back-button:hover {
+    color: #989898; /* Slightly darker text color on hover */
+}
+
+/* Back button styling for pages with black background (e.g., Films, Videoclips) */
+body.films-page .back-button,
+body.videoclips-page .back-button,
+body.main-page .back-button {
+    color: #ffffff; /* White text for dark background */
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth transition for text color */
+}
+
+body.films-page .back-button:hover,
+body.videoclips-page .back-button:hover,
+body.main-page .back-button:hover {
+    color: #989898; /* Slightly lighter text color on hover */
+}
+
+
+/* Media queries for small screens */
+@media (max-width: 768px) {
+    /* Font size adjustments for mobile */
+    body {
+        font-size: 0.9rem; /* Slightly increase base font size for readability */
+    }
+
+    /* Adjust the header size for small screens */
+    h1 {
+        font-size: 1.8rem; /* Make the name slightly smaller on mobile */
+    }
+
+    /* Stack the links vertically on mobile */
+    .links {
+        flex-direction: column;
+        gap: 15px; /* Add space between the buttons */
+    }
+
+    /* Make sure all links take up enough space */
+    .links a {
+        font-size: 1.2rem; /* Adjust text size for smaller screens */
+    }
+
+    /* Ensure back button stays readable */
+    .back-button {
+        font-size: 1rem;
+        margin-top: 15px;
+    }
+}
+
+/* Media query for extra small screens (e.g., older phones) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem; /* Make header even smaller on very small screens */
+    }
+
+    /* Make the links fit smaller screens */
+    .links a {
+        font-size: 1rem;
+    }
+
+    /* Thumbnail adjustments for smaller screens */
+    .thumbnail {
+        width: 100%; /* Full width for small screens */
+        max-width: 200px; /* Set a reasonable max width */
+    }
+
+    /* Profile picture adjustments */
+    .profile-picture {
+        width: 80%; /* Take up a larger portion of the screen */
+        max-width: 350px; /* Don't exceed this size */
+    }
+}
+
+/* Styling for film titles */
+.film-title {
+    font-size: 0.5rem; /* Adjust this size as necessary */
+    margin-bottom: 10px; /* Add some space below the title */
+}
+
+/* Styling for videoclip titles */
+.videoclip-title {
+    font-size: 0.5rem; /* Adjust this size as necessary */
+    margin-bottom: 10px; /* Add some space below the title */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .film-title, .videoclip-title {
+        font-size: 0.1rem; /* Slightly smaller on mobile */
+    }
+}
+
+/* Default styling for larger screens */
+.container {
+    max-width: 1000px; /* Container size for larger screens */
+    margin: 0 auto; /* Center the content */
+}
+
+.film-title, .videoclip-title {
+    font-size: 0.5rem; /* Regular font size for titles */
+}
+
+.thumbnail {
+    width: 150px; /* Thumbnail size for larger screens */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Media query for smaller desktops and tablets */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 90vw; /* Shrink container to fit smaller screens */
+    }
+
+    .film-title, .videoclip-title {
+        font-size: 0.5rem; /* Slightly smaller titles */
+    }
+
+    .thumbnail {
+        width: 130px; /* Reduce thumbnail size */
+    }
+}
+
+/* Media query for mobile phones and very small screens */
+@media (max-width: 768px) {
+    .container {
+        max-width: 95vw; /* Make container fit the screen width */
+    }
+
+    .film-title, .videoclip-title {
+        font-size: 0.5rem; /* Smaller titles for mobile */
+    }
+
+    .thumbnail {
+        width: 100px; /* Smaller thumbnails for mobile */
+    }
+
+    .back-button {
+        font-size: 0.8rem; /* Smaller back button text */
+    }
+}
+
+/* Fluid width container */
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Ensure images scale down but maintain their aspect ratio */
+.thumbnail {
+    width: 100%;
+    max-width: 150px; /* Or any size that fits */
+    height: auto;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap; /* Allows links to wrap on smaller screens */
+    justify-content: center;
+}
+
+/* General styling for the biography page */
+body.biography-page .container {
+    max-width: 600px; /* Limit the width of the biography container */
+    margin: 0 auto; /* Center the content */
+    padding: 100px; /* Add some padding for readability */
+}
+
+/* Ensure that it looks good on tablets and smaller screens */
+@media (max-width: 1024px) {
+    body.biography-page .container {
+        max-width: 90vw; /* Use viewport width for responsive design */
+        padding: 15px; /* Add some padding */
+    }
+}
+
+/* Adjust for mobile phones */
+@media (max-width: 768px) {
+    body.biography-page .container {
+        max-width: 95vw; /* Full width on smaller screens */
+        padding: 10px; /* Ensure some padding */
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+    body.biography-page .container {
+        max-width: 100vw; /* Full width for very small screens */
+        padding: 8px; /* Keep small padding */
+    }
+}
+
+/* Ensure content does not hit the edges on mobile */
+@media (max-width: 768px) {
+    body.biography-page .container {
+        max-width: 95vw; /* Adjust width to fit small screens */
+        padding: 15px; /* Add space around content */
+    }
+}
+
+/* Even smaller screens */
+@media (max-width: 480px) {
+    body.biography-page .container {
+        max-width: 100vw; /* Full width on extra small screens */
+        padding: 10px; /* Reduce padding slightly for extra small screens */
+    }
+}
+
+/* Biography page specific container */
+body.biography-page .container {
+    max-width: 800px; /* Maximum width for larger screens */
+    margin: 0 auto;
+    padding: 20px; /* General padding for content */
+    padding-top: 100px; /* Add padding to the top */
+    line-height: 1.6; /* Improve readability */
+}
+
+/* Ensure content does not hit the edges on mobile */
+@media (max-width: 768px) {
+    body.biography-page .container {
+        max-width: 95vw; /* Adjust width to fit small screens */
+        padding: 15px; /* General padding */
+        padding-top: 400px; /* Maintain top padding on mobile */
+    }
+}
+
+/* General styling for the biography page */
+body.biography-page .container {
+    max-width: 600px; /* Limit the width of the biography container */
+    margin: 0 auto; /* Center the content */
+    padding: 20px; /* General padding for content */
+    padding-top: 100px; /* Add padding to the top */
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center text */
+    line-height: 1.6; /* Improve readability */
+}
+
+/* Adjust for mobile phones */
+@media (max-width: 768px) {
+    body.biography-page .container {
+        max-width: 95vw; /* Full width on smaller screens */
+        padding: 10px; /* Ensure some padding */
+        padding-top: 20px; /* Reduce top padding on mobile */
+        /* Center the container's content */
+        justify-content: center; /* Center vertically */
+    }
+}
